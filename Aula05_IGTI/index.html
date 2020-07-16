@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro de Nomes - IGTI</title>
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <h1>Cadastro de Cores</h1>
+    <form action="">
+      <div class="formGroup">
+        <label> ( R ) Vermelho: </label>
+        <input
+          type="range"
+          name="valueR"
+          id="rangeR"
+          min="0"
+          max="255"
+          value="0"
+        />
+        <input
+          type="text"
+          name="rangeR"
+          id="valueR"
+          value="0"
+          maxlength="3"
+          disabled
+        />
+      </div>
+      <div class="formGroup">
+        <label> ( G ) Verde: </label>
+        <input
+          type="range"
+          name="valueG"
+          id="rangeG"
+          min="0"
+          max="255"
+          value="0"
+        />
+        <input
+          type="text"
+          name="rangeG"
+          id="valueG"
+          value="0"
+          maxlength="3"
+          disabled
+        />
+      </div>
+
+      <div class="formGroup">
+        <label> ( B ) Azul: </label>
+        <input
+          type="range"
+          name="valueB"
+          id="rangeB"
+          min="0"
+          max="255"
+          value="0"
+        />
+        <input
+          type="text"
+          name="rangeB"
+          id="valueB"
+          value="0"
+          maxlength="3"
+          disabled
+        />
+      </div>
+    </form>
+
+    <div id="actualColor" style="background: rgb(0, 0, 0);"></div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
